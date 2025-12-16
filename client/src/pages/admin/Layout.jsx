@@ -1,7 +1,7 @@
 import React from 'react'
 import { assets } from '../../assets/assets'
 import { Outlet } from 'react-router-dom'
-import Sidebar from '../../components/admin/Sidebar'
+import Sidebar from '../../components/admin/SideBar'
 import { useAppContext } from '../../context/AppContext'
 
 
@@ -29,7 +29,7 @@ const Layout = () => {
       </button>
       </div> 
       <div className='flex h-[clac(100vh-70px)]'>
-        <SIdebar/>
+        <Sidebar/>
         <Outlet/>
 
       </div>
